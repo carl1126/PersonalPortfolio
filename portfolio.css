@@ -17,11 +17,11 @@ body{
     font-family: 'dinfont_l', 'Source Sans Pro', sans-serif;
     font-weight: 400;
 }
+.my-nav{
+    background-color: #e9e9e9;
+}
 .my-sidebar{
-    height: 100%;
-    
     border-right: 0.05rem solid #afafaf;
-
 }
 .my-logosize{
     width: 80%;
