@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "dinfont";
+    src: url(fonts/FF-DIN-Pro-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "dinfont_l";
+    src: url(fonts/FF-DIN-Pro-Light.ttf) format("truetype");
+}
+.my-textfont{
+    font-family: 'dinfont', 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.my-textfont2{
+    font-family: 'dinfont_l', 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.my-sidebar{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: #e9e9e9;
+    border-right: 0.05rem solid #afafaf;
+    min-width: 180px;
+}
+.my-content{
+    width: 80%;
+    float: right;
+    min-width: 720px;
+}
+.my-logosize{
+    width: 80%;
+}
+#my-logo{
+    width: 100%;
+}
+a:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+.my-icons{
+    margin-top: auto;
+}
