@@ -12,6 +12,7 @@ body{
 .my-textfont{
     font-family: 'dinfont', 'Source Sans Pro', sans-serif;
     font-weight: 400;
+    color: #000;
 }
 .my-textfont2{
     font-family: 'dinfont_l', 'Source Sans Pro', sans-serif;
@@ -22,19 +23,53 @@ body{
 }
 .my-sidebar{
     border-right: 0.05rem solid #afafaf;
+    width:25%;
+    height: 100%;
+    position: fixed;
+}
+.my-content{
+    width:75%;
+    position: absolute;
+    right:0;
+}
+.my-socials{
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    bottom:10px;
+}
+@media only screen and (min-width: 1355px) {
+    .my-sidebar{
+        width:15%;
+    }
+    .my-content{
+        width:85%;
+    }
 }
 .my-logosize{
     width: 80%;
+    max-width: 200px;
 }
 @media only screen and (max-width: 767px) {
     .my-logosize{
         width: 20%;
+    }
+    .my-sidebar{
+        width:100%;
+        position: unset;
+    }
+    .my-content{
+        width: 100%;
+        position: unset;
     }
   }
 #my-logo{
     width: 100%;
 }
 a:hover{
-    opacity: 0.6;
+    opacity: 0.8;
     text-decoration: none;
+}
+a h2:hover{
+    color: #464646;
 }
