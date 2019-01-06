@@ -38,6 +38,16 @@ body{
     right: 2px;
     bottom:10px;
 }
+.my-pad{
+    padding-top: 1rem;
+}
+.my-menu{
+    padding-top: 3rem;
+}
+.my-logosize{
+    width: 80%;
+    max-width: 200px;
+}
 @media only screen and (min-width: 1355px) {
     .my-sidebar{
         width:15%;
@@ -45,10 +55,6 @@ body{
     .my-content{
         width:85%;
     }
-}
-.my-logosize{
-    width: 80%;
-    max-width: 200px;
 }
 @media only screen and (max-width: 767px) {
     .my-logosize{
@@ -63,6 +69,17 @@ body{
         position: unset;
     }
   }
+  @media only screen and (max-height: 700px) {
+    .my-pad{
+        padding-top: 0.5rem;
+    }
+    .my-menu{
+        padding-top: 1rem;
+    }
+    .my-logosize{
+        max-width: 120px;
+    }
+}
 #my-logo{
     width: 100%;
 }
