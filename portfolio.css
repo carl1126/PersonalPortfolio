@@ -69,7 +69,7 @@ body{
         position: unset;
     }
   }
-  @media only screen and (max-height: 700px) {
+  @media only screen and (max-height: 720px) {
     .my-pad{
         padding-top: 0.5rem;
     }
